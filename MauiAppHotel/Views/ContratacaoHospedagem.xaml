@@ -123,6 +123,16 @@
                             HeightRequest="55"
                             Margin="0,10,0,0"
                             />
+
+                    <!-- Botão Sobre -->
+                    <Button Text="Sobre o App"
+                    FontAttributes="Bold"
+                    FontSize="16"
+                    BackgroundColor="Transparent"
+                    TextColor="{StaticResource Primary}"
+                    HorizontalOptions="Center"
+                    Clicked="Sobre_Clicked"/>       
+
                 </VerticalStackLayout>
             </Frame>
         </VerticalStackLayout>
