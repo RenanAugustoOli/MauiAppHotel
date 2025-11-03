@@ -9,10 +9,12 @@
 
         protected override Window CreateWindow(IActivationState? activationState)
         {
-            var window = base.CreateWindow(activationState);
-            window.Width = 400;
-            window.Height = 600;
-
+            // Cria a janela manualmente e define a página inicial
+            var window = new Window(new NavigationPage(new Views.ContratacaoHospedagem()))
+            {
+                Width = 400,
+                Height = 600
+            };
 
             return window;
         }
