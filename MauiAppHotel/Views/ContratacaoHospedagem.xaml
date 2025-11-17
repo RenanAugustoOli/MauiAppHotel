@@ -9,7 +9,7 @@
     <ScrollView>
         <VerticalStackLayout Padding="20" Spacing="20">
 
-            <!-- Título -->
+           
             <Label 
                 Text="Cálculo da Diária"
                 FontFamily="Modak"
@@ -19,7 +19,7 @@
                 Margin="0,20,0,10"
                 />
 
-            <!-- Card Principal -->
+           
             <Frame 
                 Padding="20"
                 BackgroundColor="White"
@@ -28,7 +28,6 @@
 
                 <VerticalStackLayout Spacing="20">
 
-                    <!-- Quantidade de hóspedes -->
                     <Frame BackgroundColor="{StaticResource Gray200}"
                            Padding="15"
                            CornerRadius="15">
@@ -68,7 +67,7 @@
                         </VerticalStackLayout>
                     </Frame>
 
-                    <!-- Suíte -->
+                
                     <Frame BackgroundColor="{StaticResource Gray200}"
                            Padding="15"
                            CornerRadius="15">
@@ -85,7 +84,7 @@
                         </VerticalStackLayout>
                     </Frame>
 
-                    <!-- Período da Estadia -->
+                   
                     <Frame BackgroundColor="{StaticResource Gray200}"
                            Padding="15"
                            CornerRadius="15">
@@ -113,8 +112,9 @@
                         </VerticalStackLayout>
                     </Frame>
 
-                    <!-- Botão -->
+                    
                     <Button Text="Avançar"
+							Clicked="Button_Clicked"
                             FontAttributes="Bold"
                             FontSize="18"
                             BackgroundColor="{StaticResource Primary}"
@@ -124,7 +124,7 @@
                             Margin="0,10,0,0"
                             />
 
-                    <!-- Botão Sobre -->
+                 
                     <Button Text="Sobre o App"
                     FontAttributes="Bold"
                     FontSize="16"
